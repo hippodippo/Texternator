@@ -2,7 +2,7 @@
 
 ## A toolkit for sending texts.
 
-Currently the Texternator ToolKit consists of 3 pre-built methods.
+Currently the Texternator ToolKit consists of 4 pre-built methods.
 
 Build your own arsenal for Texternator by adding new methods to the bottom of the arsenal.js file.
 
@@ -27,6 +27,9 @@ mini_gun(3);
 
 // The plus signs are not needed for numbers. The shot_gun function adds them for you.
 shot_gun(['6747648877', '7658976574']);
+
+// Sends precise messages to precise numbers.
+sniper_rifle(['Hello Kaycee', 'Hello jami'], ['2546319787', '2546311481']);
 ```
 
 Cheers, Kaycee Ingram

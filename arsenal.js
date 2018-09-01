@@ -1,7 +1,8 @@
 // Powered by Node.js and PureText.
 // Author: Kaycee Ingram
 
-const utils = require('./utils')
+const utils = require('./utils'),
+      text =  require('./text');
               require('request');
 
 // The Arsenal
@@ -49,5 +50,17 @@ module.exports = {
     }
   },
 
+  // The sniper rifle sends mutiple messages to multiple people.
+  sniper_rifle: (messages, people) => {
+    people = people.map((el, i, arr) => arr[i] = '+' + arr[i]);
+
+    for (var i = 0; i <= messages.length; i++) {
+      text.toNumber = people[i];
+      utils.fire(messages[i]);
+    }
+  },
+
+  //----------------------------------------
   // Add your own tools to the arsenal here.
+  //----------------------------------------
 }
