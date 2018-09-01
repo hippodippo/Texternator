@@ -1,12 +1,10 @@
 // Powered by Node.js and PureText.
 // Author: Kaycee Ingram
 
-const arsenal = require('./arsenal');
+const { c4_detonator, mini_gun, shot_gun } = require('./arsenal');
 
 // Examples
 // --------
-
-const { c4_detonator, mini_gun, shot_gun } = arsenal;
 
 // Check the time and change the time below 1 min ahead and wait.
 // c4_detonator('9:45 pm'); // Uncomment this line to test it.
