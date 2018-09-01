@@ -1,5 +1,3 @@
-// An arsenal of fun tools to prank your friends with,
-// or useful tools for text friendly reminders.
 // Powered by Node.js and PureText.
 // Author: Kaycee Ingram
 
