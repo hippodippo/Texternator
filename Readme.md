@@ -29,7 +29,7 @@ mini_gun(3);
 shot_gun(['6747648877', '7658976574']);
 
 // Sends precise messages to precise numbers.
-sniper_rifle(['Hello Kaycee', 'Hello jami'], ['2546319787', '2546311481']);
+sniper_rifle(['Hello Person1', 'Hello Person2'], ['6757867654', '8765679876']);
 ```
 
 Cheers, Kaycee Ingram

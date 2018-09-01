@@ -15,5 +15,5 @@ const { c4_detonator, mini_gun, shot_gun, sniper_rifle } = require('./arsenal');
 // The plus signs are not needed for numbers. The shot_gun function adds them for you.
 // shot_gun(['6747648877', '7658976574']); // Uncomment this line to test it.
 
-// Sends a precise message to a precise number.
-// sniper_rifle(['Hello Kaycee', 'Hello jami'], ['2546319787', '2546311481']); // Uncomment this line to test it.
+// Sends precise messages to precise numbers.
+// sniper_rifle(['Hello Person1', 'Hello Person2'], ['6757867654', '8765679876']); // Uncomment this line to test it.
