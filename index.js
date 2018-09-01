@@ -54,7 +54,7 @@ function c4_detonator(time) {
 // c4_detonator('9:45 pm');
 
 // This one can be fun when you start using bigger numbers. :)
-mini_gun(3);
+// mini_gun(3);
 
 // The plus signs are not needed for numbers. The shot_gun function adds them for you.
 // shot_gun(['6747648877', '7658976574']);
