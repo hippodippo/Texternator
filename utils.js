@@ -1,3 +1,6 @@
+// Powered by Node.js and PureText.
+// Author: Kaycee Ingram
+
 const puretext = require('puretext');
 const dateFormat = require('dateformat');
 const text = require('./text');

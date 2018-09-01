@@ -2,16 +2,18 @@
 
 ## A toolkit for sending texts.
 
-Currently the Texternator ToolKit consists of 3 pre-built functions.
+Currently the Texternator ToolKit consists of 3 pre-built methods.
+
+Build your own arsenal for Texternator by adding new methods to the bottom of the arsenal.js file.
 
 To use Texternator follow these steps:
 1. Download zip file or clone repo.
 2. Run ```npm install``` or ```npm run setup``` to install the dependencies.
 3. Go create get your api_token and number from [PureText](https://www.puretext.us/auth/google).
 4. Open the text.js file and paste in your api_token and PureText number where it says to put them.
-5. Change the default smsBody in file.js to what you want to send and the target phone number.
-6. Navigate to the index.js file and scroll to the bottom.
-7. Uncomment the examples and replace the args with your friend's number or some other number.
+5. Change the default smsBody in text.js to what you want to send and change the target phone number.
+6. Navigate to the index.js file and uncomment the examples.
+7. After uncommenting the examples, replace the args with your friend's number or some other number.
 8. In the terminal at the root of the project, run ```node index.js``` and the message(s) will be sent.
 
 The example usage of the functions are shown below:
