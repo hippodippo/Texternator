@@ -1,0 +1,17 @@
+{
+  "name": "texternator",
+  "version": "1.0.0",
+  "description": "A toolkit for sending texts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "npm install"
+  },
+  "author": "Kaycee Ingram",
+  "license": "MIT",
+  "dependencies": {
+    "dateformat": "^3.0.3",
+    "puretext": "^0.1.3",
+    "request": "^2.88.0"
+  }
+}
