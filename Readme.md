@@ -19,12 +19,14 @@ To use Texternator follow these steps:
 The example usage of the functions are shown below:
 
 ```js
-// Check the time and change the time below 1 min ahead and wait.
+// Sends a text at the specified time.
 c4_detonator('9:45 pm');
 
+// Sends multiple texts to a single person.
 // This one can be fun when you start using bigger numbers. :)
 mini_gun(3);
 
+// Sends a text to multiple people.
 // The plus signs are not needed for numbers. The shot_gun function adds them for you.
 shot_gun(['6747648877', '7658976574']);
 
