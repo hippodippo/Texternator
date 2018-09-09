@@ -1,6 +1,6 @@
 ![Logo](/assets/texternator.png)
 
-## A toolkit for sending texts.
+## A toolkit for programmatically sending texts.
 
 Currently the Texternator ToolKit consists of 4 pre-built methods.
 
