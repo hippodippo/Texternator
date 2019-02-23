@@ -9,7 +9,7 @@ Build your own arsenal for Texternator by adding new methods to the bottom of th
 To use Texternator follow these steps:
 1. Download zip file or clone repo.
 2. Run ```npm install``` or ```npm run setup``` to install the dependencies.
-3. Go create get your api_token and number from [PureText](https://www.puretext.us/auth/google).
+3. Go create/get your api_token and number from [PureText](https://www.puretext.us/auth/google).
 4. Open the text.js file and paste in your api_token and PureText number where it says to put them.
 5. Change the default smsBody in text.js to what you want to send and change the target phone number.
 6. Navigate to the index.js file and uncomment the examples.
